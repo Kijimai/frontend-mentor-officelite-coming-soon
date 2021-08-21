@@ -1,0 +1,80 @@
+:root {
+  --color-blue: #5175FF;
+  --color-lightblue: #829CFF;
+  --color-dark-grey: #25293A;
+  --color-grey: #333950;
+  --color-lightgrey: #747B95;
+  --color-red: #F05B5B;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Base Styles */
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 2.8rem;
+  padding: 1.4rem 4.1rem;
+}
+
+.btn.white {
+  color: var(--color-white);
+}
+
+.btn.bg-blue {
+  background-color: var(--color-blue);
+}
+
+/* Site Header */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4rem;
+  background: no-repeat center -50vh / cover url('../../assets/home/bg-pattern-header.svg');
+  text-align: center;
+}
+
+.header-img {
+  font-family: inherit;
+  height: auto;
+  width: 50vw;
+}
+
+.big-header {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  color: var(--color-grey);
+}
+
+.header-graph-container {
+  margin: 6.4rem auto 8rem;
+}
+
+.intro-container {
+  margin-bottom: 4.8rem;
+}
+
+.intro-container .description {
+  color: var(--color-lightgrey);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
