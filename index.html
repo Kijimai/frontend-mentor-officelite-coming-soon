@@ -1,77 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | Officelite coming soon site</title>
 </head>
-<body> 
-  <header class="site-header">
-    <div class="site-logo-container">
-      <img src="assets/shared/logo.svg" class="site-logo" id="site-logo">
-    </div>
-    <div class="header-graph-container">
-      <img class="header-img" src="assets/home/illustration-charts.svg" alt="">
-    </div>
-    <div class="header-items">
-      
-      <h1 class="big-header">A simple solution to complex tasks is coming soon</h1>
-      <div class="header-intro-container">
 
-        <div class="intro-container">
-          <p class="description">Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite is the new collaboration platform built with an intuitive interface to improve productivity.</p>
+<body>
+  <section class="upper-content">
+    <header class="site-header">
+      <div class="site-logo-container">
+        <img src="assets/shared/logo.svg" class="site-logo" id="site-logo">
+      </div>
+      <div class="header-graph-container">
+        <img src="assets/home/illustration-charts.svg" class="header-img" alt="">
+      </div>
+      <div class="header-items">
+  
+        <h1 class="big-header">A simple solution to complex tasks is coming soon</h1>
+        <div class="header-intro-container">
+  
+          <div class="intro-container">
+            <p class="description">Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite
+              is the new collaboration platform built with an intuitive interface to improve productivity.</p>
+          </div>
+  
+          <a href="#" class="btn white bg-blue">Get Started</a>
         </div>
-
-        <a href="#" class="btn white bg-blue">Get Started</a>
+      </div>
+    </header>
+  </section>
+  <section class="site-section pricing" id="pricing">
+    <div class="pricing-inner-container">
+      <div class="price-container basic">
+        <header class="pricing-header">
+          <h2 class="price-header">Basic</h2>
+          <h3 class="price-amount">Free</h3>
+          <h4 class="sub-info">Up to 5 users for free</h4>
+        </header>
+        <div class="pricing-feature">
+          <ul>
+            <li>Basic document collaboration</li>
+            <li>2 GB storage</li>
+            <li>Great security and support</li>
+          </ul>
+        </div>
+        <a class="btn bg-blue low-opacity white" href="#">Try for Free</a>
+      </div>
+      <div class="price-container pro">
+        <header class="pricing-header">
+          <h2 class="price-header">Pro</h2>
+          <h3 class="price-amount">$9.99</h3>
+          <h4 class="sub-info">Per user, billed monthly</h4>
+        </header>
+        <div class="pricing-feature">
+          <ul>
+            <li>All essential integrations</li>
+            <li>50 GB storage</li>
+            <li>More control and insights</li>
+          </ul>
+        </div>
+        <a href="#" class="btn bg-white low-opacity">Try for Free</a>
+      </div>
+      <div class="price-container ultimate">
+        <header class="pricing-header">
+          <h2 class="price-header">Ultimate</h2>
+          <h3 class="price-amount">$19.99</h3>
+          <h4 class="sub-info">Per user, billed monthly</h4>
+        </header>
+        <div class="pricing-feature">
+          <ul>
+            <li>Robust work management</li>
+            <li>100 GB storage</li>
+            <li>VIP support</li>
+          </ul>
+        </div>
+        <a href="#" class="btn bg-blue low-opacity">Try for Free</a>
       </div>
     </div>
-  </header>
-
-  <section class="pricing" id="pricing">
-    Basic
-    Free
-    Up to 5 users for free
-    Basic document collaboration
-    2 gb storage
-    Great security and support
-    Try for Free
-  
-    Pro
-    $9.99
-    Per user, billed monthly
-    All essential integrations
-    50 gb storage
-    More control and insights
-    Try for Free
-  
-    Ultimate
-    $19.99
-    Per user, billed monthly
-    Robust work management
-    100 gb storage
-    VIP support
-    Try for Free
   </section>
-
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
-
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-  Get Started
   <footer>
-
+    <div class="inner-footer-container">
+      <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
+      <div class="date-countdown-container">
+        <div class="date-container">
+          <h2>Coming <span class="releaseDate" id="releaseDate">4 Nov 2020</span></h2>
+        </div>
+      
+        <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
+        <div class="countdown-container">
+          <div class="countdown-box">
+            <h3>47</h3>
+            <p>Days</p>
+          </div>
+          <div class="countdown-box">
+            <h3>07</h3>
+            <p>Hours</p>
+          </div>
+          <div class="countdown-box">
+            <h3>56</h3>
+            <p>Min</p>
+          </div>
+          <div class="countdown-box">
+            <h3>14</h3>
+            <p>Sec</p>
+          </div>
+        </div>
+      </div>
+        <a href="#" class="btn bg-blue white">Get Started</a>
+    </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
